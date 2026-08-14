@@ -1,0 +1,12 @@
+﻿assumption,status,value,unit,notes
+patients_per_chew,SOURCE-DERIVED,10,patients_per_chew,Oyo State Executive Summary
+training_cost_per_chew,TBD,,NGN,To validate
+equipment_cost_per_chew,TBD,,NGN,To validate
+deployment_cost_per_chew,TBD,,NGN,To validate
+monthly_chew_remuneration,TBD,,NGN,To validate
+monthly_logistics_per_chew,TBD,,NGN,To validate
+patient_consumables_per_month,TBD,,NGN,To validate
+platform_cost_per_patient_month,TBD,,NGN,To validate
+clinical_supervision,TBD,,NGN,To validate
+shared_overhead,TBD,,NGN,To validate
+subscription_per_patient_month,TBD,,NGN,To determine
