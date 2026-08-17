@@ -1,12 +1,38 @@
-﻿assumption,status,value,unit,notes
-patients_per_chew,SOURCE-DERIVED,10,patients_per_chew,Oyo State Executive Summary
-training_cost_per_chew,TBD,,NGN,To validate
-equipment_cost_per_chew,TBD,,NGN,To validate
-deployment_cost_per_chew,TBD,,NGN,To validate
-monthly_chew_remuneration,TBD,,NGN,To validate
-monthly_logistics_per_chew,TBD,,NGN,To validate
-patient_consumables_per_month,TBD,,NGN,To validate
-platform_cost_per_patient_month,TBD,,NGN,To validate
-clinical_supervision,TBD,,NGN,To validate
-shared_overhead,TBD,,NGN,To validate
-subscription_per_patient_month,TBD,,NGN,To determine
+﻿assumption_id,category,variable,value,unit,driver,status,source_note
+A001,Operating Model,Patients per CHEW,10,patients/CHEW,Per CHEW,CONFIRMED,EasePal Care 1:10 operating model
+A002,Revenue,Private subscription,15000,NGN/patient/month,Per Patient,CONFIRMED,Management assumption
+A003,Personnel,CHEW monthly remuneration,110000,NGN/CHEW/month,Per CHEW,CONFIRMED,Total allowance package
+A004,Recruitment,Recruitment advertising,50000,NGN/cycle,Per Cycle,TBD,Requires validation
+A005,Recruitment,Application/selection administration,10000,NGN/CHEW,Per CHEW,TBD,Requires validation
+A006,Recruitment,Interview/assessment,5000,NGN/CHEW,Per CHEW,TBD,Requires validation
+A007,Recruitment,Verification/background checks,10000,NGN/CHEW,Per CHEW,TBD,Requires validation
+A008,Recruitment,Documentation/HR onboarding,5000,NGN/CHEW,Per CHEW,TBD,Requires validation
+A009,Recruitment,Recruitment/HR personnel,70000,NGN/cycle,Shared,TBD,Requires validation
+A010,Onboarding,Orientation,7000,NGN/CHEW,Per CHEW,TBD,Requires validation
+A011,Onboarding,ID/identification materials,10000,NGN/CHEW,Per CHEW,TBD,Requires validation
+A012,Onboarding,Uniform/branding,20000,NGN/CHEW,Per CHEW,TBD,Requires validation
+A013,Onboarding,Initial communication setup,250000,NGN/CHEW,Per CHEW,TBD,Revised management assumption
+A014,Onboarding,HR documentation,5000,NGN/CHEW,Per CHEW,TBD,Requires validation
+A015,Training,Training materials,10000,NGN/CHEW,Per CHEW,TBD,Requires validation
+A016,Training,Trainer/facilitator fees,100000,NGN/cycle,Per Cycle,TBD,Requires validation
+A017,Training,Venue,500000,NGN/cycle,Per Cycle,TBD,Requires validation
+A018,Training,Meals/refreshments,25000,NGN/CHEW,Per CHEW,TBD,Requires validation
+A019,Training,Transport,5000,NGN/CHEW,Per CHEW,TBD,Requires validation
+A020,Training,Training equipment,1000000,NGN/cycle,Per Cycle,TBD,Requires validation
+A021,Training,Training certification,5000,NGN/CHEW,Per CHEW,TBD,Requires validation
+A022,Training,Training administration,50000,NGN/cycle,Per Cycle,TBD,Requires validation
+A023,Equipment,Digital sphygmomanometer + blood sugar monitoring device,50000,NGN/CHEW,Per CHEW,CONFIRMED,Management assumption
+A024,Equipment,Thermometer,1500,NGN/CHEW,Per CHEW,CONFIRMED,Management assumption
+A025,Equipment,Nurse breast watch,5000,NGN/CHEW,Per CHEW,CONFIRMED,Management assumption
+A026,Equipment,Equipped first aid box,50000,NGN/CHEW,Per CHEW,CONFIRMED,Management assumption
+A027,Deployment,Community sensitization,100000,NGN/cycle,Shared,TBD,Requires validation
+A028,Deployment,Deployment kits/materials,0,NGN/CHEW,Per CHEW,TBD,Remaining deployment items TBD
+A029,Operations,Logistics,0,NGN/CHEW,Variable,TBD,Requires validation
+A030,Clinical,Clinical supervision,0,NGN/cycle,Shared,TBD,Requires validation
+A031,Technology,Technology/platform,0,NGN/month,Shared,TBD,Requires validation
+A032,Quality,Monitoring and evaluation,0,NGN/cycle,Shared,TBD,Requires validation
+A033,Administration,Shared overhead,0,NGN/month,Shared,TBD,Requires validation
+A034,Business Development,Business development,0,NGN/month,Shared,TBD,Requires validation
+A035,Risk,Attrition/replacement,0,percent,Percentage,TBD,Requires validation
+A036,Risk,Contingency,0,percent,Percentage,TBD,Requires validation
+A037,Patient Costs,Patient consumables,0,NGN/patient/month,Per Patient,CONFIRMED,Routine consumables supplied by patient

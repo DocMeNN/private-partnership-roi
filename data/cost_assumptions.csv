@@ -1,0 +1,39 @@
+﻿cost_id,cost_category,cost_item,driver,amount_ngn,cost_type,status
+C001,Recruitment,Recruitment advertising,Per recruitment cycle,50000,Shared/One-off,TBD
+C002,Recruitment,Application/selection administration,Per CHEW,10000,Variable,TBD
+C003,Recruitment,Interview/assessment,Per CHEW,5000,Variable,TBD
+C004,Recruitment,Verification/background checks,Per CHEW,10000,Variable,TBD
+C005,Recruitment,Documentation/HR onboarding,Per CHEW,5000,Variable,TBD
+C006,Recruitment,Recruitment/HR personnel,Fixed/shared,70000,Shared,TBD
+
+C007,Onboarding,Orientation,Per CHEW,7000,Variable,TBD
+C008,Onboarding,ID/identification materials,Per CHEW,10000,Variable,TBD
+C009,Onboarding,Uniform/branding,Per CHEW,20000,Variable,TBD
+C010,Onboarding,Initial communication setup,Per CHEW,250000,Variable,TBD
+C011,Onboarding,HR documentation,Per CHEW,5000,Variable,TBD
+
+C012,Training,Training materials,Per CHEW,10000,Variable,TBD
+C013,Training,Trainer/facilitator fees,Per training cycle,100000,Shared/cycle,TBD
+C014,Training,Venue,Per training cycle,500000,Shared/cycle,TBD
+C015,Training,Meals/refreshments,Per CHEW,25000,Variable,TBD
+C016,Training,Transport,Per CHEW,5000,Variable,TBD
+C017,Training,Training equipment,Per training cycle,1000000,One-off/cycle,TBD
+C018,Training,Training certification,Per CHEW,5000,Variable,TBD
+C019,Training,Training administration,Per training cycle,50000,Shared/cycle,TBD
+
+C020,Equipment,Digital sphygmomanometer + blood sugar monitoring device,Per CHEW,50000,Variable,CONFIRMED
+C021,Equipment,Thermometer,Per CHEW,1500,Variable,CONFIRMED
+C022,Equipment,Nurse breast watch,Per CHEW,5000,Variable,CONFIRMED
+C023,Equipment,Equipped first aid box,Per CHEW,50000,Variable,CONFIRMED
+
+C024,Deployment,Community sensitization,Per cycle,100000,Shared/cycle,TBD
+C025,Deployment,Deployment kits/materials,Per CHEW,0,Variable,TBD
+
+C026,Operations,Logistics,Per CHEW,0,Variable,TBD
+C027,Clinical,Clinical supervision,Per cycle,0,Shared/cycle,TBD
+C028,Technology,Technology/platform,Per month,0,Fixed/shared,TBD
+C029,Quality,Monitoring and evaluation,Per cycle,0,Shared/cycle,TBD
+C030,Administration,Shared overhead,Fixed/shared,0,Fixed/shared,TBD
+C031,Business Development,Business development,Fixed/shared,0,Fixed/shared,TBD
+C032,Risk,Attrition/replacement,Percentage,0,Percentage,TBD
+C033,Risk,Contingency,Percentage,0,Percentage,TBD
