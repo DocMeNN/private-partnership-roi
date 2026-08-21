@@ -1,12 +1,4 @@
-﻿"""
-V2 Five-Year Projection Engine
-Builds a five-year financial projection from the confirmed V1 model
-and investor assumptions.
-"""
-
-from dashboard.calculator import (
-    calculate_scenario,
-)
+from dashboard.calculator import calculate_scenario
 from dashboard.v2.investment_assumptions import (
     InvestmentAssumptions,
     validate_assumptions,
@@ -17,12 +9,6 @@ def project_five_years(
     chews: int,
     assumptions: InvestmentAssumptions,
 ) -> list[dict]:
-    """
-    Generate annual five-year projections.
-
-    V1 revenue and CHEW remuneration remain the base operating model.
-    Investor assumptions provide the financing context.
-    """
 
     errors = validate_assumptions(assumptions)
 
@@ -65,9 +51,6 @@ def project_five_years(
 def calculate_five_year_totals(
     projection: list[dict],
 ) -> dict:
-    """
-    Aggregate the five-year projection.
-    """
 
     return {
         "total_revenue": sum(

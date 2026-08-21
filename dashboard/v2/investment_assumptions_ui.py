@@ -1,8 +1,3 @@
-﻿"""
-V2 Investment Assumptions Interface
-Editable Streamlit interface for investor and financing assumptions.
-"""
-
 import streamlit as st
 
 from dashboard.v2.investment_assumptions import (
@@ -22,7 +17,7 @@ def render_investment_assumptions():
 
     with col1:
         investor_capital = st.number_input(
-            "Investor Capital (₦)",
+            "Investor Capital (?)",
             min_value=0.0,
             value=0.0,
             step=100000.0,
@@ -66,7 +61,7 @@ def render_investment_assumptions():
 
         exit_multiple = st.number_input(
             "Exit Multiple",
-            min_value=0.0,
+            min_value=0.1,
             value=1.0,
             step=0.1,
         )
