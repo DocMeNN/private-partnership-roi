@@ -1,7 +1,8 @@
-﻿from dashboard.calculator import calculate
+﻿from dashboard.calculator import calculate_scenario
 
 
 def test_scale_calculation():
-    result = calculate(10)
+    result = calculate_scenario(10)
 
     assert result["chews"] == 10
+    assert result["patients"] == 100
