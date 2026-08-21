@@ -468,3 +468,12 @@ st.warning(
 st.caption(
     "EasePal Care | Private Partnership ROI & Scaling Dashboard | V1.0"
 )
+from dashboard.v2.investment_assumptions_ui import render_investment_assumptions
+
+# V2 Investment Assumptions
+st.divider()
+st.header("V2 — Investment Assumptions")
+
+investment_assumptions = render_investment_assumptions()
+
+st.session_state["investment_assumptions"] = investment_assumptions
