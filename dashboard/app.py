@@ -491,3 +491,22 @@ except ValueError as error:
 st.caption(
     "EasePal Care | Private Partnership ROI & Scaling Dashboard | V2.0"
 )
+from dashboard.v2.investor_return_analysis_ui import (
+    render_investor_return_analysis,
+)
+
+# ============================================================
+# V2 INVESTOR RETURN ANALYSIS
+# ============================================================
+
+st.divider()
+st.header("V2 - Investor Return Analysis")
+
+investor_return_analysis = render_investor_return_analysis(
+    investment_assumptions=investment_assumptions,
+    total_contribution=totals["total_contribution"],
+)
+
+st.session_state["investor_return_analysis"] = (
+    investor_return_analysis
+)
