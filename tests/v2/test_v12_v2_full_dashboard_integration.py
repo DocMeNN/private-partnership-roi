@@ -18,7 +18,7 @@ def test_v12_v2_full_dashboard_integration_imports():
         render_investment_executive_summary,
     )
     from dashboard.v2.investment_readiness_ui import (
-        render_investment_readiness,
+        render_investment_readiness_panel,
     )
     from dashboard.v2.investment_decision_snapshot_ui import (
         render_investment_decision_snapshot,
@@ -30,6 +30,6 @@ def test_v12_v2_full_dashboard_integration_imports():
     assert callable(render_full_investment_dashboard)
     assert callable(render_v1_v2_summary)
     assert callable(render_investment_executive_summary)
-    assert callable(render_investment_readiness)
+    assert callable(render_investment_readiness_panel)
     assert callable(render_investment_decision_snapshot)
     assert callable(render_v12_v2_integration_status)
