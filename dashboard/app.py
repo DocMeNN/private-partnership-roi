@@ -526,3 +526,20 @@ investor_decision_metrics = render_investor_decision_metrics(
 st.session_state["investor_decision_metrics"] = (
     investor_decision_metrics
 )
+import streamlit as st
+
+from dashboard.v2.full_investment_dashboard_ui import (
+    render_full_investment_dashboard,
+)
+
+st.divider()
+st.header("V2 - Full Investment Picture")
+
+full_investment_dashboard = render_full_investment_dashboard(
+    investment_assumptions=investment_assumptions,
+    total_contribution=totals["total_contribution"],
+)
+
+st.session_state["full_investment_dashboard"] = (
+    full_investment_dashboard
+)
