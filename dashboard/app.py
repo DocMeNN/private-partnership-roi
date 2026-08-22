@@ -510,3 +510,19 @@ investor_return_analysis = render_investor_return_analysis(
 st.session_state["investor_return_analysis"] = (
     investor_return_analysis
 )
+from dashboard.v2.investor_decision_metrics_ui import (
+    render_investor_decision_metrics,
+)
+
+st.divider()
+st.header("V2 - Investor Decision Metrics")
+
+investor_decision_metrics = render_investor_decision_metrics(
+    investment_assumptions=investment_assumptions,
+    investor_return_analysis=investor_return_analysis,
+    total_contribution=totals["total_contribution"],
+)
+
+st.session_state["investor_decision_metrics"] = (
+    investor_decision_metrics
+)
